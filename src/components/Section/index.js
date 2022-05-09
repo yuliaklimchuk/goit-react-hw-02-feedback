@@ -1,1 +1,1 @@
-export { Section} from './Section.jsx'
+export { Section} from './section.jsx'
