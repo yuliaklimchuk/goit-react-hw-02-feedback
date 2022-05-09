@@ -1,1 +1,1 @@
-export { FeedbackOptions } from './FeedbackOptions.jsx';
+export { FeedbackOptions } from './feedbackOptions.jsx';
