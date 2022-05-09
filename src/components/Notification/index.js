@@ -1,1 +1,1 @@
-export { Notification} from './notification.jsx'
+export { Notification} from './Notification.jsx'

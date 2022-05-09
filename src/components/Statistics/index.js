@@ -1,1 +1,1 @@
-export { Statistics } from './statistics.jsx'
+export { Statistics } from './Statistics.jsx'

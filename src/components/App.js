@@ -35,6 +35,7 @@ export class App extends Component {
     return (
       <Section title='Please leave feedback'>
         <FeedbackOptions
+          options={this.state}
           onLeaveFeedback={this.onLeaveFeedback}
         />
         {this.countTotalFeedback()

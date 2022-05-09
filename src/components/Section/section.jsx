@@ -10,6 +10,6 @@ export const Section = ({ title, children }) => {
 }
 
 Section.propTypes = {
-    title: PropTypes.string,
-    children: PropTypes.arrayOf(PropTypes.object)
+    title: PropTypes.string.isRequired,
+    children: PropTypes.arrayOf(PropTypes.element).isRequired
 };
