@@ -11,13 +11,9 @@ export class App extends Component {
     bad: 0
   }
   
-  onLeaveFeedback = (event) => { 
-    const feedback = event.target.textContent.toLowerCase();
-        this.setState((prevState) => { 
-      return {
-        [feedback]: prevState[feedback] + 1,
-      }
-    })
+  onLeaveFeedback = (key) => {
+    this.setState((prevState) => ({ [key]: prevState[key] + 1 }))
+      ;
   }
   
   countTotalFeedback = () => { 
